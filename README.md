@@ -1,5 +1,11 @@
 # IMNetworkReachability
 
+![Swift](https://img.shields.io/badge/Swift-4.0-blue.svg)
+![License](https://img.shields.io/npm/l/express.svg)
+![CocoaPods](https://img.shields.io/cocoapods/v/IMNetworkReachability.svg)
+![Platforms](https://img.shields.io/cocoapods/p/IMNetworkReachability.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 IMNetworkReachability is a reachability framework.
 It is designed to help you interface with network activity events. It allows you to monitor network state synchronously and asynchronously.
 

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }	
 
   s.name         = "IMNetworkReachability"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "IMNetworkReachability is a network reachability framework."
   s.description  = <<-DESC
   				   IMNetworkReachability is a reachability framework. It is designed to help you interface with network activity events.

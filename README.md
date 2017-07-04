@@ -9,6 +9,31 @@
 IMNetworkReachability is a reachability framework.
 It is designed to help you interface with network activity events. It allows you to monitor network state synchronously and asynchronously.
 
+## Example - closures
+
+```swift
+// Declare this property where it won't go out of scope relative to your listener
+let reachability = IMNetworkReachability("www.google.com")
+
+reachability.startListening { (result) in
+// this is called on a main thread
+  switch result {
+    case .reachable:
+      print("Reachable")
+    case .offline:
+      print("Offline")
+    case .error(let error):
+      print("Failed to check for a network reachability, error: \(error)")
+  }
+}
+```
+
+and for stopping notifications
+
+```swift
+reachability.stopListening()
+```
+
 ## Installation
 IMNetworkReachability supports multiple methods for installing the library in a project.
 

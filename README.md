@@ -9,6 +9,55 @@
 IMNetworkReachability is a reachability framework.
 It is designed to help you interface with network activity events. It allows you to monitor network state synchronously and asynchronously.
 
+## Installation
+IMNetworkReachability supports multiple methods for installing the library in a project.
+
+## Installation with CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like IMNetworkReachability in your projects. See the ["Getting Started" guide for more information](https://guides.cocoapods.org/using/getting-started.html). You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+#### Podfile
+
+To integrate IMNetworkReachability into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+pod 'IMNetworkReachability', '~> 0.0.4'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Installation with Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate IMNetworkReachability into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "vanyaland/IMNetworkReachability" ~> 0.0.4
+```
+
+Run `carthage` to build the framework and drag the built `IMNetworkReachability.framework` into your Xcode project.
+
 ## Author
 I'm [Ivan Magda](https://www.facebook.com/ivan.magda).
 Email: [imagda15@gmail.com](mailto:imagda15@gmail.com).

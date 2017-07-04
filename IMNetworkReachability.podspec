@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "IMNetworkReachability"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "IMNetworkReachability is a network reachability framework."
   s.description  = <<-DESC
   				   IMNetworkReachability is a reachability framework. It is designed to help you interface with network activity events.

@@ -51,6 +51,8 @@ and for stopping notifications
 reachability.stopListening()
 ```
 
+Also, don't forget to [enable network access](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW9) on macOS.
+
 ## Installation
 IMNetworkReachability supports multiple methods for installing the library in a project.
 
@@ -68,11 +70,31 @@ To integrate IMNetworkReachability into your Xcode project using CocoaPods, spec
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
 
-target 'TargetName' do
-pod 'IMNetworkReachability', '~> 0.0.4'
+target 'iOS' do
+  platform :ios, '8.0'
+  use_frameworks!
+
+  pod 'IMNetworkReachability', '~> 0.1'
+
 end
+
+target 'macOS' do
+  platform :osx, '10.9'
+  use_frameworks!
+
+  pod 'IMNetworkReachability', '~> 0.1'
+
+end
+
+target 'tvOS' do
+  platform :tvos, '9.0'
+  use_frameworks!
+
+  pod 'IMNetworkReachability', '~> 0.1'
+
+end
+
 ```
 
 Then, run the following command:
@@ -95,7 +117,7 @@ $ brew install carthage
 To integrate IMNetworkReachability into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "vanyaland/IMNetworkReachability" ~> 0.0.4
+github "vanyaland/IMNetworkReachability" ~> 0.1
 ```
 
 Run `carthage` to build the framework and drag the built `IMNetworkReachability.framework` into your Xcode project.

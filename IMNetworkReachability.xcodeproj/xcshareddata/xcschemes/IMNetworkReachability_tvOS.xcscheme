@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7501E7E11F0AEB8D00DC4B0C"
+               BlueprintIdentifier = "750BD8DF1F0CD57000ADF085"
                BuildableName = "IMNetworkReachability.framework"
-               BlueprintName = "IMNetworkReachability"
+               BlueprintName = "IMNetworkReachability_tvOS"
                ReferencedContainer = "container:IMNetworkReachability.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7501E7EA1F0AEB8D00DC4B0C"
-               BuildableName = "IMNetworkReachabilityTests.xctest"
-               BlueprintName = "IMNetworkReachabilityTests"
+               BlueprintIdentifier = "750BD8E71F0CD57000ADF085"
+               BuildableName = "IMNetworkReachability_tvOSTests.xctest"
+               BlueprintName = "IMNetworkReachability_tvOSTests"
                ReferencedContainer = "container:IMNetworkReachability.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7501E7E11F0AEB8D00DC4B0C"
+            BlueprintIdentifier = "750BD8DF1F0CD57000ADF085"
             BuildableName = "IMNetworkReachability.framework"
-            BlueprintName = "IMNetworkReachability"
+            BlueprintName = "IMNetworkReachability_tvOS"
             ReferencedContainer = "container:IMNetworkReachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7501E7E11F0AEB8D00DC4B0C"
+            BlueprintIdentifier = "750BD8DF1F0CD57000ADF085"
             BuildableName = "IMNetworkReachability.framework"
-            BlueprintName = "IMNetworkReachability"
+            BlueprintName = "IMNetworkReachability_tvOS"
             ReferencedContainer = "container:IMNetworkReachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7501E7E11F0AEB8D00DC4B0C"
+            BlueprintIdentifier = "750BD8DF1F0CD57000ADF085"
             BuildableName = "IMNetworkReachability.framework"
-            BlueprintName = "IMNetworkReachability"
+            BlueprintName = "IMNetworkReachability_tvOS"
             ReferencedContainer = "container:IMNetworkReachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

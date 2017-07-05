@@ -12,6 +12,24 @@
 		7501E7F31F0AEB8D00DC4B0C /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7501E80B1F0AEC9B00DC4B0C /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
 		7501E80F1F0AECF000DC4B0C /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
+		750BD8CD1F0CD55300ADF085 /* IMNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */; };
+		750BD8E91F0CD57000ADF085 /* IMNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */; };
+		75ABD9C91F0CD94200219761 /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75ABD9CA1F0CD94700219761 /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75ABD9CC1F0CD97100219761 /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */; };
+		75ABD9CD1F0CD97200219761 /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */; };
+		75ABD9CE1F0CDACA00219761 /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
+		75ABD9CF1F0CDACA00219761 /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */; };
+		75ABD9D01F0CDACA00219761 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
+		75ABD9D11F0CDACA00219761 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
+		75ABD9D21F0CDACA00219761 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
+		75ABD9D31F0CDACA00219761 /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
+		75ABD9D41F0CDACB00219761 /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
+		75ABD9D51F0CDACB00219761 /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */; };
+		75ABD9D61F0CDACB00219761 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
+		75ABD9D71F0CDACB00219761 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
+		75ABD9D81F0CDACB00219761 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
+		75ABD9D91F0CDACB00219761 /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
 		75E8F3541F0AEE160053F7A9 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
 		75E8F3561F0AEE9F0053F7A9 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
 		75E8F3581F0AF1F20053F7A9 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
@@ -26,17 +44,35 @@
 			remoteGlobalIDString = 7501E7E11F0AEB8D00DC4B0C;
 			remoteInfo = IMNetworkReachability;
 		};
+		750BD8CE1F0CD55300ADF085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7501E7D91F0AEB8D00DC4B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750BD8C31F0CD55200ADF085;
+			remoteInfo = IMNetworkReachability_macOS;
+		};
+		750BD8EA1F0CD57000ADF085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7501E7D91F0AEB8D00DC4B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750BD8DF1F0CD57000ADF085;
+			remoteInfo = IMNetworkReachability_tvOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7501E7E21F0AEB8D00DC4B0C /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNetworkReachability.h; sourceTree = "<group>"; };
 		7501E7E61F0AEB8D00DC4B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachabilityTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachabilityTests.swift; sourceTree = "<group>"; };
 		7501E7F21F0AEB8D00DC4B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncEvaluator.swift; sourceTree = "<group>"; };
 		7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachability.swift; sourceTree = "<group>"; };
+		750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750BD8CC1F0CD55300ADF085 /* IMNetworkReachability_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachability_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750BD8E81F0CD57000ADF085 /* IMNetworkReachability_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachability_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachable.swift; sourceTree = "<group>"; };
 		75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityResult.swift; sourceTree = "<group>"; };
 		75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityError.swift; sourceTree = "<group>"; };
@@ -59,6 +95,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		750BD8C01F0CD55200ADF085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8C91F0CD55300ADF085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750BD8CD1F0CD55300ADF085 /* IMNetworkReachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8DC1F0CD57000ADF085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8E51F0CD57000ADF085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750BD8E91F0CD57000ADF085 /* IMNetworkReachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				7501E7E21F0AEB8D00DC4B0C /* IMNetworkReachability.framework */,
-				7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.xctest */,
+				7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS.xctest */,
+				750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */,
+				750BD8CC1F0CD55300ADF085 /* IMNetworkReachability_macOSTests.xctest */,
+				750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */,
+				750BD8E81F0CD57000ADF085 /* IMNetworkReachability_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,12 +217,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		750BD8C11F0CD55200ADF085 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9C91F0CD94200219761 /* IMNetworkReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8DD1F0CD57000ADF085 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9CA1F0CD94700219761 /* IMNetworkReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability */ = {
+		7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7501E7F61F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachability" */;
+			buildConfigurationList = 7501E7F61F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachability_iOS" */;
 			buildPhases = (
 				7501E7DD1F0AEB8D00DC4B0C /* Sources */,
 				7501E7DE1F0AEB8D00DC4B0C /* Frameworks */,
@@ -163,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = IMNetworkReachability;
+			name = IMNetworkReachability_iOS;
 			productName = IMNetworkReachability;
 			productReference = 7501E7E21F0AEB8D00DC4B0C /* IMNetworkReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7501E7EA1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests */ = {
+		7501E7EA1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7501E7F91F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachabilityTests" */;
+			buildConfigurationList = 7501E7F91F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachabilityTests_iOS" */;
 			buildPhases = (
 				7501E7E71F0AEB8D00DC4B0C /* Sources */,
 				7501E7E81F0AEB8D00DC4B0C /* Frameworks */,
@@ -181,9 +267,81 @@
 			dependencies = (
 				7501E7EE1F0AEB8D00DC4B0C /* PBXTargetDependency */,
 			);
-			name = IMNetworkReachabilityTests;
+			name = IMNetworkReachabilityTests_iOS;
 			productName = IMNetworkReachabilityTests;
-			productReference = 7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.xctest */;
+			productReference = 7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		750BD8C31F0CD55200ADF085 /* IMNetworkReachability_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750BD8D91F0CD55300ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_macOS" */;
+			buildPhases = (
+				750BD8BF1F0CD55200ADF085 /* Sources */,
+				750BD8C01F0CD55200ADF085 /* Frameworks */,
+				750BD8C11F0CD55200ADF085 /* Headers */,
+				750BD8C21F0CD55200ADF085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMNetworkReachability_macOS;
+			productName = IMNetworkReachability_macOS;
+			productReference = 750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		750BD8CB1F0CD55300ADF085 /* IMNetworkReachability_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750BD8DA1F0CD55300ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_macOSTests" */;
+			buildPhases = (
+				750BD8C81F0CD55300ADF085 /* Sources */,
+				750BD8C91F0CD55300ADF085 /* Frameworks */,
+				750BD8CA1F0CD55300ADF085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750BD8CF1F0CD55300ADF085 /* PBXTargetDependency */,
+			);
+			name = IMNetworkReachability_macOSTests;
+			productName = IMNetworkReachability_macOSTests;
+			productReference = 750BD8CC1F0CD55300ADF085 /* IMNetworkReachability_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		750BD8DF1F0CD57000ADF085 /* IMNetworkReachability_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750BD8F11F0CD57000ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_tvOS" */;
+			buildPhases = (
+				750BD8DB1F0CD57000ADF085 /* Sources */,
+				750BD8DC1F0CD57000ADF085 /* Frameworks */,
+				750BD8DD1F0CD57000ADF085 /* Headers */,
+				750BD8DE1F0CD57000ADF085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMNetworkReachability_tvOS;
+			productName = IMNetworkReachability_tvOS;
+			productReference = 750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		750BD8E71F0CD57000ADF085 /* IMNetworkReachability_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750BD8F41F0CD57000ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_tvOSTests" */;
+			buildPhases = (
+				750BD8E41F0CD57000ADF085 /* Sources */,
+				750BD8E51F0CD57000ADF085 /* Frameworks */,
+				750BD8E61F0CD57000ADF085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750BD8EB1F0CD57000ADF085 /* PBXTargetDependency */,
+			);
+			name = IMNetworkReachability_tvOSTests;
+			productName = IMNetworkReachability_tvOSTests;
+			productReference = 750BD8E81F0CD57000ADF085 /* IMNetworkReachability_tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +360,18 @@
 					7501E7EA1F0AEB8D00DC4B0C = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					750BD8C31F0CD55200ADF085 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					750BD8CB1F0CD55300ADF085 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					750BD8DF1F0CD57000ADF085 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					750BD8E71F0CD57000ADF085 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 				};
 			};
 			buildConfigurationList = 7501E7DC1F0AEB8D00DC4B0C /* Build configuration list for PBXProject "IMNetworkReachability" */;
@@ -216,8 +386,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability */,
-				7501E7EA1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests */,
+				7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability_iOS */,
+				7501E7EA1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS */,
+				750BD8C31F0CD55200ADF085 /* IMNetworkReachability_macOS */,
+				750BD8CB1F0CD55300ADF085 /* IMNetworkReachability_macOSTests */,
+				750BD8DF1F0CD57000ADF085 /* IMNetworkReachability_tvOS */,
+				750BD8E71F0CD57000ADF085 /* IMNetworkReachability_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +405,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7501E7E91F0AEB8D00DC4B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8C21F0CD55200ADF085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8CA1F0CD55300ADF085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8DE1F0CD57000ADF085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8E61F0CD57000ADF085 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,13 +463,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		750BD8BF1F0CD55200ADF085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9D21F0CDACA00219761 /* IMNetworkReachable.swift in Sources */,
+				75ABD9D31F0CDACA00219761 /* IMNetworkReachability.swift in Sources */,
+				75ABD9CE1F0CDACA00219761 /* SyncEvaluator.swift in Sources */,
+				75ABD9D11F0CDACA00219761 /* IMReachabilityError.swift in Sources */,
+				75ABD9D01F0CDACA00219761 /* IMReachabilityResult.swift in Sources */,
+				75ABD9CF1F0CDACA00219761 /* AsyncHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8C81F0CD55300ADF085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9CC1F0CD97100219761 /* IMNetworkReachabilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8DB1F0CD57000ADF085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9D81F0CDACB00219761 /* IMNetworkReachable.swift in Sources */,
+				75ABD9D91F0CDACB00219761 /* IMNetworkReachability.swift in Sources */,
+				75ABD9D41F0CDACB00219761 /* SyncEvaluator.swift in Sources */,
+				75ABD9D71F0CDACB00219761 /* IMReachabilityError.swift in Sources */,
+				75ABD9D61F0CDACB00219761 /* IMReachabilityResult.swift in Sources */,
+				75ABD9D51F0CDACB00219761 /* AsyncHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750BD8E41F0CD57000ADF085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABD9CD1F0CD97200219761 /* IMNetworkReachabilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		7501E7EE1F0AEB8D00DC4B0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability */;
+			target = 7501E7E11F0AEB8D00DC4B0C /* IMNetworkReachability_iOS */;
 			targetProxy = 7501E7ED1F0AEB8D00DC4B0C /* PBXContainerItemProxy */;
+		};
+		750BD8CF1F0CD55300ADF085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750BD8C31F0CD55200ADF085 /* IMNetworkReachability_macOS */;
+			targetProxy = 750BD8CE1F0CD55300ADF085 /* PBXContainerItemProxy */;
+		};
+		750BD8EB1F0CD57000ADF085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750BD8DF1F0CD57000ADF085 /* IMNetworkReachability_tvOS */;
+			targetProxy = 750BD8EA1F0CD57000ADF085 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -320,6 +574,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,6 +627,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -394,7 +650,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachability;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = IMNetworkReachability;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,7 +670,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachability;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = IMNetworkReachability;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +705,162 @@
 			};
 			name = Release;
 		};
+		750BD8D51F0CD55300ADF085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-macOS";
+				PRODUCT_NAME = IMNetworkReachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		750BD8D61F0CD55300ADF085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-macOS";
+				PRODUCT_NAME = IMNetworkReachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		750BD8D71F0CD55300ADF085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				INFOPLIST_FILE = IMNetworkReachability_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		750BD8D81F0CD55300ADF085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				INFOPLIST_FILE = IMNetworkReachability_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		750BD8F21F0CD57000ADF085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOS";
+				PRODUCT_NAME = IMNetworkReachability;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		750BD8F31F0CD57000ADF085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOS";
+				PRODUCT_NAME = IMNetworkReachability;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		750BD8F51F0CD57000ADF085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				INFOPLIST_FILE = IMNetworkReachability_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		750BD8F61F0CD57000ADF085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6UNHY8UY6E;
+				INFOPLIST_FILE = IMNetworkReachability_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,7 +873,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7501E7F61F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachability" */ = {
+		7501E7F61F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachability_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7501E7F71F0AEB8D00DC4B0C /* Debug */,
@@ -470,11 +882,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7501E7F91F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachabilityTests" */ = {
+		7501E7F91F0AEB8D00DC4B0C /* Build configuration list for PBXNativeTarget "IMNetworkReachabilityTests_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7501E7FA1F0AEB8D00DC4B0C /* Debug */,
 				7501E7FB1F0AEB8D00DC4B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750BD8D91F0CD55300ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750BD8D51F0CD55300ADF085 /* Debug */,
+				750BD8D61F0CD55300ADF085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750BD8DA1F0CD55300ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750BD8D71F0CD55300ADF085 /* Debug */,
+				750BD8D81F0CD55300ADF085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750BD8F11F0CD57000ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750BD8F21F0CD57000ADF085 /* Debug */,
+				750BD8F31F0CD57000ADF085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750BD8F41F0CD57000ADF085 /* Build configuration list for PBXNativeTarget "IMNetworkReachability_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750BD8F51F0CD57000ADF085 /* Debug */,
+				750BD8F61F0CD57000ADF085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

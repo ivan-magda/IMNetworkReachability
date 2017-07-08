@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "IMNetworkReachability"
-  s.version = "0.1.2"
-  s.license = "MIT"
+  s.version = "0.2"
+  s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = "Network reachability framework"
   s.homepage = "https://github.com/vanyaland/IMNetworkReachability"
   s.social_media_url = "https://twitter.com/magda_ivan"
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target  = "10.9"
   s.tvos.deployment_target = "9.0"
   
-  s.source_files  = "IMNetworkReachability", "IMNetworkReachability/**/*.{h,m,swift}"
+  s.source_files  = "IMNetworkReachability", "Sources/**/*.{h,m,swift}"
 end

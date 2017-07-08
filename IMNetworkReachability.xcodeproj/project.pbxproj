@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7501E7EC1F0AEB8D00DC4B0C /* IMNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7501E7E21F0AEB8D00DC4B0C /* IMNetworkReachability.framework */; };
-		7501E7F11F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */; };
-		7501E7F31F0AEB8D00DC4B0C /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7501E80B1F0AEC9B00DC4B0C /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
-		7501E80F1F0AECF000DC4B0C /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
 		750BD8CD1F0CD55300ADF085 /* IMNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */; };
 		750BD8E91F0CD57000ADF085 /* IMNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */; };
-		75ABD9C91F0CD94200219761 /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75ABD9CA1F0CD94700219761 /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75ABD9CC1F0CD97100219761 /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */; };
-		75ABD9CD1F0CD97200219761 /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */; };
-		75ABD9CE1F0CDACA00219761 /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
-		75ABD9CF1F0CDACA00219761 /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */; };
-		75ABD9D01F0CDACA00219761 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
-		75ABD9D11F0CDACA00219761 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
-		75ABD9D21F0CDACA00219761 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
-		75ABD9D31F0CDACA00219761 /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
-		75ABD9D41F0CDACB00219761 /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */; };
-		75ABD9D51F0CDACB00219761 /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */; };
-		75ABD9D61F0CDACB00219761 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
-		75ABD9D71F0CDACB00219761 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
-		75ABD9D81F0CDACB00219761 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
-		75ABD9D91F0CDACB00219761 /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */; };
-		75E8F3541F0AEE160053F7A9 /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */; };
-		75E8F3561F0AEE9F0053F7A9 /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */; };
-		75E8F3581F0AF1F20053F7A9 /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */; };
-		75E8F35B1F0AFAF10053F7A9 /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */; };
+		75E4B14D1F118ACD001383CE /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1461F118A26001383CE /* AsyncHandler.swift */; };
+		75E4B14E1F118AD2001383CE /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1461F118A26001383CE /* AsyncHandler.swift */; };
+		75E4B14F1F118AD3001383CE /* AsyncHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1461F118A26001383CE /* AsyncHandler.swift */; };
+		75E4B1501F118AFA001383CE /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14C1F118A26001383CE /* SyncEvaluator.swift */; };
+		75E4B1511F118AFB001383CE /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14C1F118A26001383CE /* SyncEvaluator.swift */; };
+		75E4B1521F118AFE001383CE /* SyncEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14C1F118A26001383CE /* SyncEvaluator.swift */; };
+		75E4B1531F118B16001383CE /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14A1F118A26001383CE /* IMReachabilityError.swift */; };
+		75E4B1541F118B17001383CE /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14A1F118A26001383CE /* IMReachabilityError.swift */; };
+		75E4B1551F118B18001383CE /* IMReachabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14A1F118A26001383CE /* IMReachabilityError.swift */; };
+		75E4B1561F118B1D001383CE /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */; };
+		75E4B1571F118B1E001383CE /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */; };
+		75E4B1581F118B1F001383CE /* IMReachabilityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */; };
+		75E4B1591F118B2C001383CE /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1481F118A26001383CE /* IMNetworkReachability.swift */; };
+		75E4B15A1F118B2D001383CE /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1481F118A26001383CE /* IMNetworkReachability.swift */; };
+		75E4B15B1F118B2E001383CE /* IMNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1481F118A26001383CE /* IMNetworkReachability.swift */; };
+		75E4B15C1F118B34001383CE /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1491F118A26001383CE /* IMNetworkReachable.swift */; };
+		75E4B15D1F118B34001383CE /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1491F118A26001383CE /* IMNetworkReachable.swift */; };
+		75E4B15E1F118B35001383CE /* IMNetworkReachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B1491F118A26001383CE /* IMNetworkReachable.swift */; };
+		75E4B1621F118C62001383CE /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E4B1471F118A26001383CE /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E4B1631F118C64001383CE /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E4B1471F118A26001383CE /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E4B1641F118C64001383CE /* IMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E4B1471F118A26001383CE /* IMNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E4B16E1F119137001383CE /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */; };
+		75E4B16F1F119139001383CE /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */; };
+		75E4B1701F11913A001383CE /* IMNetworkReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,21 +62,21 @@
 
 /* Begin PBXFileReference section */
 		7501E7E21F0AEB8D00DC4B0C /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNetworkReachability.h; sourceTree = "<group>"; };
-		7501E7E61F0AEB8D00DC4B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7501E7EB1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachabilityTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachabilityTests.swift; sourceTree = "<group>"; };
-		7501E7F21F0AEB8D00DC4B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncEvaluator.swift; sourceTree = "<group>"; };
-		7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachability.swift; sourceTree = "<group>"; };
 		750BD8C41F0CD55200ADF085 /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750BD8CC1F0CD55300ADF085 /* IMNetworkReachability_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachability_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		750BD8E01F0CD57000ADF085 /* IMNetworkReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMNetworkReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750BD8E81F0CD57000ADF085 /* IMNetworkReachability_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMNetworkReachability_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachable.swift; sourceTree = "<group>"; };
-		75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityResult.swift; sourceTree = "<group>"; };
-		75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityError.swift; sourceTree = "<group>"; };
-		75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHandler.swift; sourceTree = "<group>"; };
+		75E4B1421F118A26001383CE /* IMNetworkReachability.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IMNetworkReachability.plist; sourceTree = "<group>"; };
+		75E4B1431F118A26001383CE /* IMNetworkReachabilityTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IMNetworkReachabilityTests.plist; sourceTree = "<group>"; };
+		75E4B1461F118A26001383CE /* AsyncHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHandler.swift; sourceTree = "<group>"; };
+		75E4B1471F118A26001383CE /* IMNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMNetworkReachability.h; sourceTree = "<group>"; };
+		75E4B1481F118A26001383CE /* IMNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachability.swift; sourceTree = "<group>"; };
+		75E4B1491F118A26001383CE /* IMNetworkReachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachable.swift; sourceTree = "<group>"; };
+		75E4B14A1F118A26001383CE /* IMReachabilityError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityError.swift; sourceTree = "<group>"; };
+		75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMReachabilityResult.swift; sourceTree = "<group>"; };
+		75E4B14C1F118A26001383CE /* SyncEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncEvaluator.swift; sourceTree = "<group>"; };
+		75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMNetworkReachabilityTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,9 @@
 		7501E7D81F0AEB8D00DC4B0C = {
 			isa = PBXGroup;
 			children = (
-				7501E7E41F0AEB8D00DC4B0C /* IMNetworkReachability */,
-				7501E7EF1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests */,
+				75E4B1451F118A26001383CE /* Sources */,
+				75E4B16B1F119121001383CE /* Tests */,
+				75E4B1411F118A26001383CE /* Configs */,
 				7501E7E31F0AEB8D00DC4B0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,60 +151,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7501E7E41F0AEB8D00DC4B0C /* IMNetworkReachability */ = {
+		75E4B1411F118A26001383CE /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				75E8F35C1F0AFC700053F7A9 /* Private */,
-				75E8F35D1F0AFCD00053F7A9 /* Public */,
-				7501E8061F0AEC4500DC4B0C /* SupportingFiles */,
+				75E4B1421F118A26001383CE /* IMNetworkReachability.plist */,
+				75E4B1431F118A26001383CE /* IMNetworkReachabilityTests.plist */,
 			);
-			path = IMNetworkReachability;
+			path = Configs;
 			sourceTree = "<group>";
 		};
-		7501E7EF1F0AEB8D00DC4B0C /* IMNetworkReachabilityTests */ = {
+		75E4B1451F118A26001383CE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7501E7F01F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift */,
-				7501E7F21F0AEB8D00DC4B0C /* Info.plist */,
+				75E4B1461F118A26001383CE /* AsyncHandler.swift */,
+				75E4B1481F118A26001383CE /* IMNetworkReachability.swift */,
+				75E4B1491F118A26001383CE /* IMNetworkReachable.swift */,
+				75E4B14A1F118A26001383CE /* IMReachabilityError.swift */,
+				75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */,
+				75E4B14C1F118A26001383CE /* SyncEvaluator.swift */,
+				75E4B1471F118A26001383CE /* IMNetworkReachability.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		75E4B16B1F119121001383CE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75E4B16C1F119121001383CE /* IMNetworkReachabilityTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		75E4B16C1F119121001383CE /* IMNetworkReachabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */,
 			);
 			path = IMNetworkReachabilityTests;
-			sourceTree = "<group>";
-		};
-		7501E8061F0AEC4500DC4B0C /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				7501E7E51F0AEB8D00DC4B0C /* IMNetworkReachability.h */,
-				7501E7E61F0AEB8D00DC4B0C /* Info.plist */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		75E8F35C1F0AFC700053F7A9 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				7501E8091F0AEC9B00DC4B0C /* SyncEvaluator.swift */,
-				75E8F35A1F0AFAEA0053F7A9 /* AsyncHandler.swift */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		75E8F35D1F0AFCD00053F7A9 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				75E8F35E1F0AFCDE0053F7A9 /* Model */,
-				75E8F3531F0AEE160053F7A9 /* IMNetworkReachable.swift */,
-				7501E80E1F0AECF000DC4B0C /* IMNetworkReachability.swift */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		75E8F35E1F0AFCDE0053F7A9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				75E8F3551F0AEE9F0053F7A9 /* IMReachabilityResult.swift */,
-				75E8F3571F0AF1F20053F7A9 /* IMReachabilityError.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +197,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7501E7F31F0AEB8D00DC4B0C /* IMNetworkReachability.h in Headers */,
+				75E4B1621F118C62001383CE /* IMNetworkReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +205,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9C91F0CD94200219761 /* IMNetworkReachability.h in Headers */,
+				75E4B1631F118C64001383CE /* IMNetworkReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +213,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9CA1F0CD94700219761 /* IMNetworkReachability.h in Headers */,
+				75E4B1641F118C64001383CE /* IMNetworkReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +430,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7501E80F1F0AECF000DC4B0C /* IMNetworkReachability.swift in Sources */,
-				75E8F3541F0AEE160053F7A9 /* IMNetworkReachable.swift in Sources */,
-				75E8F35B1F0AFAF10053F7A9 /* AsyncHandler.swift in Sources */,
-				75E8F3581F0AF1F20053F7A9 /* IMReachabilityError.swift in Sources */,
-				7501E80B1F0AEC9B00DC4B0C /* SyncEvaluator.swift in Sources */,
-				75E8F3561F0AEE9F0053F7A9 /* IMReachabilityResult.swift in Sources */,
+				75E4B1501F118AFA001383CE /* SyncEvaluator.swift in Sources */,
+				75E4B1531F118B16001383CE /* IMReachabilityError.swift in Sources */,
+				75E4B1591F118B2C001383CE /* IMNetworkReachability.swift in Sources */,
+				75E4B14D1F118ACD001383CE /* AsyncHandler.swift in Sources */,
+				75E4B15C1F118B34001383CE /* IMNetworkReachable.swift in Sources */,
+				75E4B1561F118B1D001383CE /* IMReachabilityResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7501E7F11F0AEB8D00DC4B0C /* IMNetworkReachabilityTests.swift in Sources */,
+				75E4B16E1F119137001383CE /* IMNetworkReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,12 +451,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9D21F0CDACA00219761 /* IMNetworkReachable.swift in Sources */,
-				75ABD9D31F0CDACA00219761 /* IMNetworkReachability.swift in Sources */,
-				75ABD9CE1F0CDACA00219761 /* SyncEvaluator.swift in Sources */,
-				75ABD9D11F0CDACA00219761 /* IMReachabilityError.swift in Sources */,
-				75ABD9D01F0CDACA00219761 /* IMReachabilityResult.swift in Sources */,
-				75ABD9CF1F0CDACA00219761 /* AsyncHandler.swift in Sources */,
+				75E4B1511F118AFB001383CE /* SyncEvaluator.swift in Sources */,
+				75E4B1541F118B17001383CE /* IMReachabilityError.swift in Sources */,
+				75E4B15A1F118B2D001383CE /* IMNetworkReachability.swift in Sources */,
+				75E4B14E1F118AD2001383CE /* AsyncHandler.swift in Sources */,
+				75E4B15D1F118B34001383CE /* IMNetworkReachable.swift in Sources */,
+				75E4B1571F118B1E001383CE /* IMReachabilityResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9CC1F0CD97100219761 /* IMNetworkReachabilityTests.swift in Sources */,
+				75E4B16F1F119139001383CE /* IMNetworkReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,12 +472,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9D81F0CDACB00219761 /* IMNetworkReachable.swift in Sources */,
-				75ABD9D91F0CDACB00219761 /* IMNetworkReachability.swift in Sources */,
-				75ABD9D41F0CDACB00219761 /* SyncEvaluator.swift in Sources */,
-				75ABD9D71F0CDACB00219761 /* IMReachabilityError.swift in Sources */,
-				75ABD9D61F0CDACB00219761 /* IMReachabilityResult.swift in Sources */,
-				75ABD9D51F0CDACB00219761 /* AsyncHandler.swift in Sources */,
+				75E4B1521F118AFE001383CE /* SyncEvaluator.swift in Sources */,
+				75E4B1551F118B18001383CE /* IMReachabilityError.swift in Sources */,
+				75E4B15B1F118B2E001383CE /* IMNetworkReachability.swift in Sources */,
+				75E4B14F1F118AD3001383CE /* AsyncHandler.swift in Sources */,
+				75E4B15E1F118B35001383CE /* IMNetworkReachable.swift in Sources */,
+				75E4B1581F118B1F001383CE /* IMReachabilityResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75ABD9CD1F0CD97200219761 /* IMNetworkReachabilityTests.swift in Sources */,
+				75E4B1701F11913A001383CE /* IMNetworkReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +630,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachability;
@@ -666,7 +650,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachability;
@@ -682,7 +666,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6UNHY8UY6E;
-				INFOPLIST_FILE = IMNetworkReachabilityTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachabilityTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachabilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -696,7 +680,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6UNHY8UY6E;
-				INFOPLIST_FILE = IMNetworkReachabilityTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachabilityTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanmagda.IMNetworkReachabilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -716,7 +700,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -739,7 +723,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -794,7 +778,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOS";
@@ -816,7 +800,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/IMNetworkReachability/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachability.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOS";
@@ -834,7 +818,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6UNHY8UY6E;
-				INFOPLIST_FILE = IMNetworkReachability_tvOSTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachabilityTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -850,7 +834,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6UNHY8UY6E;
-				INFOPLIST_FILE = IMNetworkReachability_tvOSTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Configs/IMNetworkReachabilityTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmagda.IMNetworkReachability-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

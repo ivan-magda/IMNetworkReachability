@@ -163,12 +163,8 @@
 		75E4B1451F118A26001383CE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				75E4B1461F118A26001383CE /* AsyncHandler.swift */,
-				75E4B1481F118A26001383CE /* IMNetworkReachability.swift */,
-				75E4B1491F118A26001383CE /* IMNetworkReachable.swift */,
-				75E4B14A1F118A26001383CE /* IMReachabilityError.swift */,
-				75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */,
-				75E4B14C1F118A26001383CE /* SyncEvaluator.swift */,
+				75EA3A181F119347006727D0 /* Private */,
+				75EA3A191F11935F006727D0 /* Public */,
 				75E4B1471F118A26001383CE /* IMNetworkReachability.h */,
 			);
 			path = Sources;
@@ -188,6 +184,34 @@
 				75E4B16D1F119121001383CE /* IMNetworkReachabilityTests.swift */,
 			);
 			path = IMNetworkReachabilityTests;
+			sourceTree = "<group>";
+		};
+		75EA3A181F119347006727D0 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				75E4B1461F118A26001383CE /* AsyncHandler.swift */,
+				75E4B14C1F118A26001383CE /* SyncEvaluator.swift */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		75EA3A191F11935F006727D0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				75EA3A1A1F119374006727D0 /* Model */,
+				75E4B1481F118A26001383CE /* IMNetworkReachability.swift */,
+				75E4B1491F118A26001383CE /* IMNetworkReachable.swift */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		75EA3A1A1F119374006727D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75E4B14B1F118A26001383CE /* IMReachabilityResult.swift */,
+				75E4B14A1F118A26001383CE /* IMReachabilityError.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

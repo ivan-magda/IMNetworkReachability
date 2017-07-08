@@ -9,7 +9,10 @@
 IMNetworkReachability is a reachability framework.
 It is designed to help you interface with network activity events. It allows you to monitor network state synchronously and asynchronously.
 
-## Examples
+- [Usage](#usage)
+- [Installation](#installation)
+
+## Usage
 
 #### Synchronously
 
@@ -75,7 +78,7 @@ target 'iOS' do
   platform :ios, '8.0'
   use_frameworks!
 
-  pod 'IMNetworkReachability', '~> 0.1'
+  pod 'IMNetworkReachability', '~> 0.2.0'
 
 end
 
@@ -83,7 +86,7 @@ target 'macOS' do
   platform :osx, '10.9'
   use_frameworks!
 
-  pod 'IMNetworkReachability', '~> 0.1'
+  pod 'IMNetworkReachability', '~> 0.2.0'
 
 end
 
@@ -91,7 +94,7 @@ target 'tvOS' do
   platform :tvos, '9.0'
   use_frameworks!
 
-  pod 'IMNetworkReachability', '~> 0.1'
+  pod 'IMNetworkReachability', '~> 0.2.0'
 
 end
 
@@ -117,10 +120,62 @@ $ brew install carthage
 To integrate IMNetworkReachability into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "vanyaland/IMNetworkReachability" ~> 0.1
+github "vanyaland/IMNetworkReachability" ~> 0.2.0
 ```
 
 Run `carthage` to build the framework and drag the built `IMNetworkReachability.framework` into your Xcode project.
+
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but IMNetworkReachability does support its use on supported platforms. 
+
+Once you have your Swift package set up, adding IMNetworkReachability as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/vanyaland/IMNetworkReachability.git", from: "0.2.0"),
+]
+```
+
+### Manually
+
+If you prefer not to use any of the aforementioned dependency managers, you can integrate IMNetworkReachability into your project manually.
+
+#### Embedded Framework
+
+- Open up Terminal, `cd` into your top-level project directory, and run the following command "if" your project is not initialized as a git repository:
+
+  ```bash
+  $ git init
+  ```
+
+- Add IMNetworkReachability as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
+
+  ```bash
+  $ git submodule add https://github.com/vanyaland/IMNetworkReachability.git
+  ```
+
+- Open the new `IMNetworkReachability` folder, and drag the `IMNetworkReachability.xcodeproj` into the Project Navigator of your application's Xcode project.
+
+    > It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
+
+- Select the `IMNetworkReachability.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
+- Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
+- In the tab bar at the top of that window, open the "General" panel.
+- Click on the `+` button under the "Embedded Binaries" section.
+- You will see two different `IMNetworkReachability.xcodeproj` folders each with two different versions of the `IMNetworkReachability.framework` nested inside a `Products` folder.
+
+    > It does not matter which `Products` folder you choose from, but it does matter whether you choose the top or bottom `IMNetworkReachability.framework`.
+
+- Select the top `IMNetworkReachability.framework` for iOS and the bottom one for OS X.
+
+    > You can verify which one you selected by inspecting the build log for your project. The build target for `IMNetworkReachability` will be listed as either `IMNetworkReachability_iOS`, `IMNetworkReachability_macOS` or `IMNetworkReachability_tvOS`.
+
+- And that's it!
+
+  > The `IMNetworkReachability.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
+
+---
 
 ## Author
 I'm [Ivan Magda](https://www.facebook.com/ivan.magda).

@@ -1,60 +1,23 @@
 # IMNetworkReachability
 
-![Swift](https://img.shields.io/badge/Swift-4.0-blue.svg)
-![License](https://img.shields.io/npm/l/express.svg)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![CocoaPods](https://img.shields.io/cocoapods/v/IMNetworkReachability.svg)
 ![Platforms](https://img.shields.io/cocoapods/p/IMNetworkReachability.svg)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![License](https://img.shields.io/npm/l/express.svg)
 
 IMNetworkReachability is a reachability framework.
 It is designed to help you interface with network activity events. It allows you to monitor network state synchronously and asynchronously.
 
-- [Usage](#usage)
+- [Requirements](#requirements)
 - [Installation](#installation)
+- [Usage](#usage)
 
-## Usage
+## Requirements
 
-#### Synchronously
-
-```swift
-let reachability = IMNetworkReachability("www.google.com")
-
-switch reachability.isReachable() {
-  case .reachable:
-    print("Reachable")
-  case .offline:
-    print("Offline")
-  case .error(let error):
-    print("Failed to check for a network reachability, error: \(error)")
-}
-```
-
-#### Closures
-
-```swift
-// Declare this property where it won't go out of scope relative to your listener
-let reachability = IMNetworkReachability("www.google.com")
-
-reachability.startListening { (result) in
-// this is called on a main thread
-  switch result {
-    case .reachable:
-      print("Reachable")
-    case .offline:
-      print("Offline")
-    case .error(let error):
-      print("Failed to check for a network reachability, error: \(error)")
-  }
-}
-```
-
-and for stopping notifications
-
-```swift
-reachability.stopListening()
-```
-
-Also, don't forget to [enable network access](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW9) on macOS.
+- iOS 8.0+ / macOS 10.9+ / tvOS 9.0+
+- Xcode 9.0
+- Swift 4.0
 
 ## Installation
 IMNetworkReachability supports multiple methods for installing the library in a project.
@@ -175,7 +138,49 @@ If you prefer not to use any of the aforementioned dependency managers, you can 
 
   > The `IMNetworkReachability.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
 
----
+## Usage
+
+#### Synchronously
+
+```swift
+let reachability = IMNetworkReachability("www.google.com")
+
+switch reachability.isReachable() {
+  case .reachable:
+    print("Reachable")
+  case .offline:
+    print("Offline")
+  case .error(let error):
+    print("Failed to check for a network reachability, error: \(error)")
+}
+```
+
+#### Closures
+
+```swift
+// Declare this property where it won't go out of scope relative to your listener
+let reachability = IMNetworkReachability("www.google.com")
+
+reachability.startListening { (result) in
+// this is called on a main thread
+  switch result {
+    case .reachable:
+      print("Reachable")
+    case .offline:
+      print("Offline")
+    case .error(let error):
+      print("Failed to check for a network reachability, error: \(error)")
+  }
+}
+```
+
+and for stopping notifications
+
+```swift
+reachability.stopListening()
+```
+
+Also, don't forget to [enable network access](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW9) on macOS.
 
 ## Author
 I'm [Ivan Magda](https://www.facebook.com/ivan.magda).

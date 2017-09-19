@@ -1,5 +1,6 @@
 # IMNetworkReachability
 
+[![codebeat badge](https://codebeat.co/badges/443cdf3e-63c0-458c-bb83-611b1fe700c6)](https://codebeat.co/projects/github-com-vanyaland-imnetworkreachability-master)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![CocoaPods](https://img.shields.io/cocoapods/v/IMNetworkReachability.svg)

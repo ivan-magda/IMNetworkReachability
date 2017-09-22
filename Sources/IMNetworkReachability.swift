@@ -28,8 +28,8 @@ public class IMNetworkReachability {
   
   // MARK: Instance Variables
   
-  private let hostName: String
-  private let asyncHandler: AsyncHandler
+  fileprivate let hostName: String
+  fileprivate let asyncHandler: AsyncHandler
   
   // MARK: Init
   

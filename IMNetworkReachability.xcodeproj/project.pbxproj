@@ -151,6 +151,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7551954A1F766B320030E449 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75E4B1471F118A26001383CE /* IMNetworkReachability.h */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		75E4B1411F118A26001383CE /* Configs */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +173,7 @@
 			children = (
 				75EA3A181F119347006727D0 /* Private */,
 				75EA3A191F11935F006727D0 /* Public */,
-				75E4B1471F118A26001383CE /* IMNetworkReachability.h */,
+				7551954A1F766B320030E449 /* SupportingFiles */,
 			);
 			path = Sources;
 			sourceTree = "<group>";

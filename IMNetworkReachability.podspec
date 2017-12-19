@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "IMNetworkReachability"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = "Network reachability framework"
   s.homepage = "https://github.com/vanyaland/IMNetworkReachability"
